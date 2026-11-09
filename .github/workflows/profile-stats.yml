@@ -3,7 +3,9 @@ name: Refresh profile stats
 on:
   push:
     branches: [main]
-    paths: [.github/workflows/profile-stats.yml]
+    paths:
+      - .github/workflows/profile-stats.yml
+      - .github/scripts/render-profile-terminal.ps1
   schedule:
     - cron: '23 3 * * 1'
   workflow_dispatch:
@@ -39,9 +41,13 @@ jobs:
           path: assets/profile/languages.svg
           fail_on_error: true
 
-      - name: Publish cards if they changed
+      - name: Assemble the terminal
+        shell: pwsh
+        run: ./.github/scripts/render-profile-terminal.ps1
+
+      - name: Publish the updated terminal
         run: |
-          git add assets/profile/stats.svg assets/profile/languages.svg
+          git add assets/profile/stats.svg assets/profile/languages.svg assets/profile/terminal.svg
           if git diff --cached --quiet; then
             exit 0
           fi

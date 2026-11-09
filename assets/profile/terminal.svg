@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="434" viewBox="0 0 680 434" role="img" aria-labelledby="title description">
+  <title id="title">Ansel in macOS Terminal</title>
+  <desc id="description">hi there. Ansel on GitHub as @ansel333. Commits (last year) 103, Stars earned 0, Pull requests 0, Issues 2, Contributed to (last year) 2. Repository languages Python 79.11%, Java 9.13%, PowerShell 5.21%, HTML 3.25%, Shell 1.46%, Kotlin 0.84%, CSS 0.63%, JavaScript 0.37%.</desc>
+  <defs>
+    <clipPath id="window">
+      <rect width="680" height="434" rx="13"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#window)">
+    <rect width="680" height="434" fill="#101a25"/>
+    <rect width="680" height="32" fill="#29323d"/>
+    <path stroke="#394957" d="M0 32.5h680"/>
+    <circle cx="18" cy="16" r="5.5" fill="#ff5f57"/>
+    <circle cx="36" cy="16" r="5.5" fill="#febc2e"/>
+    <circle cx="54" cy="16" r="5.5" fill="#28c840"/>
+    <text x="340" y="20.5" text-anchor="middle" fill="#e6eef5" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Ansel · zsh</text>
+
+    <g font-family="SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="27" y="62" font-size="19" fill="#b8c9d6" xml:space="preserve"><tspan fill="#67e8be">ansel</tspan> ~ % cat profile.txt</text>
+      <text x="27" y="99" font-size="28" font-weight="700" fill="#f0f6fc">hi there</text>
+      <g font-size="20">
+        <text x="27" y="129" fill="#9eb1c2">name</text>
+        <text x="89" y="129" fill="#e6eef5">Ansel</text>
+        <text x="190" y="129" fill="#9eb1c2">github</text>
+        <text x="277" y="129" fill="#67e8be">@ansel333</text>
+      </g>
+
+      <path d="M27 151h626 M348 202V389" fill="none" stroke="#304050"/>
+      <text x="27" y="181" font-size="19" fill="#b8c9d6" xml:space="preserve"><tspan fill="#67e8be">ansel</tspan> ~ % github-stats --public</text>
+      <g font-size="16">
+        <text x="27" y="211" fill="#67e8be" font-weight="600">GitHub activity</text>
+        <text x="370" y="211" fill="#67e8be" font-weight="600">Repository languages</text>
+      <text x="27" y="236" fill="#c4d1dc">Commits (last year)</text>
+      <text x="326" y="236" fill="#f0f6fc" text-anchor="end">103</text>
+      <text x="27" y="257" fill="#c4d1dc">Stars earned</text>
+      <text x="326" y="257" fill="#f0f6fc" text-anchor="end">0</text>
+      <text x="27" y="278" fill="#c4d1dc">Pull requests</text>
+      <text x="326" y="278" fill="#f0f6fc" text-anchor="end">0</text>
+      <text x="27" y="299" fill="#c4d1dc">Issues</text>
+      <text x="326" y="299" fill="#f0f6fc" text-anchor="end">2</text>
+      <text x="27" y="320" fill="#c4d1dc">Contributed to (last year)</text>
+      <text x="326" y="320" fill="#f0f6fc" text-anchor="end">2</text>
+      <text x="370" y="236" fill="#c4d1dc">Python</text>
+      <text x="653" y="236" fill="#f0f6fc" text-anchor="end">79.11%</text>
+      <text x="370" y="257" fill="#c4d1dc">Java</text>
+      <text x="653" y="257" fill="#f0f6fc" text-anchor="end">9.13%</text>
+      <text x="370" y="278" fill="#c4d1dc">PowerShell</text>
+      <text x="653" y="278" fill="#f0f6fc" text-anchor="end">5.21%</text>
+      <text x="370" y="299" fill="#c4d1dc">HTML</text>
+      <text x="653" y="299" fill="#f0f6fc" text-anchor="end">3.25%</text>
+      <text x="370" y="320" fill="#c4d1dc">Shell</text>
+      <text x="653" y="320" fill="#f0f6fc" text-anchor="end">1.46%</text>
+      <text x="370" y="341" fill="#c4d1dc">Kotlin</text>
+      <text x="653" y="341" fill="#f0f6fc" text-anchor="end">0.84%</text>
+      <text x="370" y="362" fill="#c4d1dc">CSS</text>
+      <text x="653" y="362" fill="#f0f6fc" text-anchor="end">0.63%</text>
+      <text x="370" y="383" fill="#c4d1dc">JavaScript</text>
+      <text x="653" y="383" fill="#f0f6fc" text-anchor="end">0.37%</text>
+      </g>
+      <text x="27" y="414" font-size="13" fill="#9eb1c2">GitHub Readme Stats · public data · updated weekly</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="679" height="433" rx="12.5" fill="none" stroke="#465667"/>
+</svg>
