@@ -1,0 +1,51 @@
+name: Refresh profile stats
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/profile-stats.yml]
+  schedule:
+    - cron: '23 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Render GitHub activity
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: >-
+            username=${{ github.repository_owner }}&custom_title=GitHub%20activity&show_icons=true&hide_rank=true&disable_animations=true&card_width=390&bg_color=101A25&border_color=293D4D&title_color=67E8BE&text_color=E6EEF5&icon_color=67E8BE&border_radius=12
+          path: assets/profile/stats.svg
+          fail_on_error: true
+
+      - name: Render repository languages
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: >-
+            username=${{ github.repository_owner }}&custom_title=Repository%20languages&layout=compact&langs_count=8&disable_animations=true&card_width=390&bg_color=101A25&border_color=293D4D&title_color=67E8BE&text_color=E6EEF5&border_radius=12
+          path: assets/profile/languages.svg
+          fail_on_error: true
+
+      - name: Publish cards if they changed
+        run: |
+          git add assets/profile/stats.svg assets/profile/languages.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Refresh profile stats"
+          git push
