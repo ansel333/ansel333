@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" height="434" viewBox="0 0 680 434" role="img" aria-labelledby="title description">
   <title id="title">Ansel in macOS Terminal</title>
-  <desc id="description">hi there. Ansel on GitHub as @ansel333. Commits (last year) 103, Stars earned 0, Pull requests 0, Issues 2, Contributed to (last year) 2. Repository languages Python 79.11%, Java 9.13%, PowerShell 5.21%, HTML 3.25%, Shell 1.46%, Kotlin 0.84%, CSS 0.63%, JavaScript 0.37%.</desc>
+  <desc id="description">hi there. Ansel on GitHub as @ansel333. Commits (last year) 106, Stars earned 0, Pull requests 0, Issues 2, Contributed to (last year) 2. Repository languages Python 79.11%, Java 9.13%, PowerShell 5.21%, HTML 3.25%, Shell 1.46%, Kotlin 0.84%, CSS 0.63%, JavaScript 0.37%.</desc>
   <defs>
     <clipPath id="window">
       <rect width="680" height="434" rx="13"/>
@@ -32,7 +32,7 @@
         <text x="27" y="211" fill="#67e8be" font-weight="600">GitHub activity</text>
         <text x="370" y="211" fill="#67e8be" font-weight="600">Repository languages</text>
       <text x="27" y="236" fill="#c4d1dc">Commits (last year)</text>
-      <text x="326" y="236" fill="#f0f6fc" text-anchor="end">103</text>
+      <text x="326" y="236" fill="#f0f6fc" text-anchor="end">106</text>
       <text x="27" y="257" fill="#c4d1dc">Stars earned</text>
       <text x="326" y="257" fill="#f0f6fc" text-anchor="end">0</text>
       <text x="27" y="278" fill="#c4d1dc">Pull requests</text>
